@@ -1,0 +1,9 @@
+body {
+    background-color: #4d94ff;
+    background: linear-gradient(#0073e6 20%, #4d94ff 0%) fixed;
+}
+h2 {
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 100px;
+}
