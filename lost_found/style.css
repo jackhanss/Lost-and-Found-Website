@@ -7,3 +7,12 @@ h2 {
     text-decoration: underline;
     padding-right: 100px;
 }
+
+form{
+    text-align: center;
+    padding-top: 50px;
+}
+.describe{
+    width: 200px;
+    height: 100px;
+}
