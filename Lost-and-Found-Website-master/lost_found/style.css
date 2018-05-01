@@ -1,12 +1,11 @@
 body {
     background-color: #4d94ff;
-    background: linear-gradient(#0073e6 30%, #4d94ff 0%) fixed;
+    background: linear-gradient(#0073e6 20%, #4d94ff 0%) fixed;
 }
-h1{
- font-size: 54px;
-}
-p{
-	font-size: 25px;
+h2 {
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 100px;
 }
 
 form{
@@ -16,14 +15,4 @@ form{
 .describe{
     width: 200px;
     height: 100px;
-}
-img{
-	style:block;
-	margin-right: 100px;
-	width: 150px;
-	height: 200px;
-}
-.top{
-	display: flex;
-	justify-content: space-between;
 }

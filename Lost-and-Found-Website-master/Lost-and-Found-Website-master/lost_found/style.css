@@ -1,0 +1,38 @@
+body {
+    background-color: #4d94ff;
+    background: linear-gradient(#0073e6 30%, #4d94ff 0%) fixed;
+}
+h1{
+ font-size: 54px;
+ font-family: 'Ubuntu Mono', monospace;
+}
+p{
+	font-size: 25px;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+form{
+    text-align: center;
+    padding-top: 50px;
+}
+.describe{
+    width: 200px;
+    height: 100px;
+}
+img{
+	style:block;
+	margin-right: 100px;
+	width: 150px;
+	height: 200px;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.post_Button{
+	width: 50px;
+	margin-top: 10px;
+}
+.fakebox{
+	border
+}
