@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <title>Bancroft School Lost and Found</title>
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous">
+  </script>
+ <script src = "main.js"></script>
+
 </head>
 <body>
 
+<div class = "top" >
 <h1>Bancroft School Lost and Found</h1> 
-<h2>Post</h2>
-<p>Help someone find something or find something of your own!</p>
+<img src = "lostandfoundlogo.png" >
 
+<p>Help someone find something or find something of your own!</p>
+</div>
+
+<div class = "box" >
  <form>
      Where:<br>
-    <input type="text" name="Where"><br>
+    <input type="text" name="Where" id = "where"><br>
      When:<br>
-     <input type="text" name="When"><br>
+     <input type="text" name="When" id = "when"><br>
     Describe It:<br>
-    <input  type="text" name="Describe" class = "describe">
+    <input  type="text" name="Describe" class = "describe" id = "describe"><br>
+    <button class = "post_Button" type = "button" id = "button">Post!</button>
+ </form>
+ 
 
-
-</form>
+    
+</div>
 </body>
 </html>
-

@@ -1,11 +1,14 @@
 body {
     background-color: #4d94ff;
-    background: linear-gradient(#0073e6 20%, #4d94ff 0%) fixed;
+    background: linear-gradient(#0073e6 30%, #4d94ff 0%) fixed;
 }
-h2 {
-    text-align: right;
-    text-decoration: underline;
-    padding-right: 100px;
+h1{
+ font-size: 54px;
+ font-family: 'Ubuntu Mono', monospace;
+}
+p{
+	font-size: 25px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 form{
@@ -15,4 +18,24 @@ form{
 .describe{
     width: 200px;
     height: 100px;
+}
+img{
+	style:block;
+	margin-right: 100px;
+	width: 150px;
+	height: 200px;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.post_Button{
+	width: 50px;
+	margin-top: 10px;
+}
+.fakebox{
+	border
+}
+.box{
+	margin-top: 100px;
 }
