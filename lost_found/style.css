@@ -39,3 +39,10 @@ img{
 .box{
 	margin-top: 100px;
 }
+
+.item {
+	background: whitesmoke;
+	width: 250px;
+	padding-left: 25px;
+	padding-right: 5px;
+}
