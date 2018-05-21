@@ -18,16 +18,16 @@ $.ajax({
             <button id = "${data[i]._id}" class = "deleteButton">Delete</button>
             </div>
             `);
-
+            $(`#${data[i]._id}`).click(function(e){
+                console.log('sappy')
+                deleteItem(e.target.id);
+            })
         }
     }
 })
 }
 
 $('#button').click(function(){
-
-
-    console.log('asdfsadf')
 
     $.ajax({
         url: 'https://bancroftlaf.herokuapp.com/api/additem',
@@ -42,4 +42,19 @@ $('#button').click(function(){
     })
     
 });
-})
+
+
+function deleteItem(id) {
+    $.ajax({
+        url: 'https://bancroftlaf.herokuapp.com/api/deleteItem',
+        method: 'DELETE',
+        headers: {
+            id: id
+        },
+        success: function() {
+            render()
+        }
+    })
+}
+
+});

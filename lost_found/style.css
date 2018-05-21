@@ -43,4 +43,7 @@ img{
 	padding-left: 25px;
 	padding-right: 5px;
 	border: black 3px double;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 10px;
 }
